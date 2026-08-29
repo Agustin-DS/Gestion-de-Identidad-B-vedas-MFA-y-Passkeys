@@ -15,8 +15,8 @@ Este repositorio contiene la documentación técnica, estructura de archivos y e
 ```text
 .
 ├── evidencias/
-│   ├── boveda-passwords.png
-│   ├── keyfile-activo.png
-│   └── veracrypt-montado.png
+│   ├── Archivo key funcionando.png
+│   ├── Mi Boveda - KeePass.png
+│   └── Unidad Z creada.png
 ├── aprendizajes.txt
 └── README.md
