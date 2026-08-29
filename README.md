@@ -14,11 +14,9 @@ Este repositorio contiene la documentación técnica, estructura de archivos y e
 
 ## 📁 Estructura del Repositorio
 
-```text
-.
-├── Evidencias/
-│   ├── Archivo key funcionando.png
-│   ├── Mi Boveda - KeePass.png
-│   └── Unidad Z creada.png
-├── aprendizajes.txt
-└── README.md
+* **Carpeta de evidencias:** [Evidencias/](./Evidencias/)
+  * [Archivo key funcionando.png](./Evidencias/Archivo%20key%20funcionando.png)
+  * [Mi Boveda - KeePass.png](./Evidencias/Mi%20Boveda%20-%20KeePass.png)
+  * [Unidad Z creada.png](./Evidencias/Unidad%20Z%20creada.png)
+* **Archivo de conclusiones:** [aprendizajes.txt](./aprendizajes.txt)
+* **Documentación:** [README.md](./README.md)
