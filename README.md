@@ -11,9 +11,6 @@ Este repositorio contiene la documentación técnica, estructura de archivos y e
 ---
 
 ## 📁 Estructura del Repositorio
-
-```text
-.
 ├── evidencias/
 │   ├── Archivo key funcionando.png
 │   ├── Mi Boveda - KeePass.png
