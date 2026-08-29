@@ -1,10 +1,22 @@
-# Gestion-de-Identidad-B-vedas-MFA-y-Passkeys
-Evidencias/
--En esta captura podemos ver la creación de las bovedas de contraseñas.
-<img width="796" height="631" alt="Mi Boveda - KeePass" src="https://github.com/user-attachments/assets/e44432ca-712e-4dce-85ec-8d9c729e6752" />
+# Práctica de Gestión de Identidad y Cifrado
 
--Archivo Key activo y funcionando con el nombre "Cerrojo"
-<img width="946" height="655" alt="Archivo key funcionando" src="https://github.com/user-attachments/assets/2fb0c917-18a0-4668-bd8a-f26b3ea7a71f" />
+Este repositorio contiene la documentación técnica, estructura de archivos y evidencias gráficas de la práctica sobre gestión de credenciales y cifrado de datos en reposo.
+---
+#Propósito de las Herramientas Utilizadas
 
--Volumen montado en VeraCrypt con la letra asignada según requisito
-<img width="1125" height="633" alt="Unidad Z creada" src="https://github.com/user-attachments/assets/259fb283-63be-4e33-8104-83b9662c6a25" />
+* **KeePassXC:** Gestor de contraseñas local y de código abierto utilizado para almacenar credenciales de forma centralizada y cifrada sin depender de servidores en la nube.
+* **Key File (Archivo Llave):** Mecanismo de seguridad adicional que funciona como un segundo factor de autenticación (MFA local). Es necesario poseer este archivo específico junto con la contraseña maestra para lograr el desbloqueo de la bóveda.
+* **VeraCrypt:** Software de cifrado de disco de código abierto empleado para crear un volumen virtual cifrado (contenedor) en el sistema de archivos local, protegiendo los datos en reposo contra accesos no autorizados.
+
+---
+
+## 📁 Estructura del Repositorio
+
+```text
+.
+├── evidencias/
+│   ├── boveda-passwords.png
+│   ├── keyfile-activo.png
+│   └── veracrypt-montado.png
+├── aprendizajes.txt
+└── README.md
