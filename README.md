@@ -11,11 +11,12 @@ Este repositorio contiene la documentación técnica, estructura de archivos y e
 ---
 
 ## 📁 Estructura del Repositorio
-```text
 
+```text
+.
 ├── Evidencias/
-│   ├── ![Key File Activo](./Evidencias/Archivo%20key%20funcionando.png)
-│   ├── ![Bóveda de Contraseñas](./Evidencias/Mi%20Boveda%20-%20KeePass.png)
-│   └── ![Contenedor VeraCrypt Montado](./Evidencias/Unidad%20Z%20creada.png)
+│   ├── Archivo key funcionando.png
+│   ├── Mi Boveda - KeePass.png
+│   └── Unidad Z creada.png
 ├── aprendizajes.txt
 └── README.md
