@@ -1,0 +1,5 @@
+1. Gestión de Identidades: El uso de gestores de contraseñas como KeePassXC (en mi caso) o Bitwarden evita que se reutilicen credenciales y permiten emplear con contraseñas de alta entropía (complejidad), reduciendo drásticamente la vulnerabilidad ante ataques de fuerza bruta o robo de datos.
+
+2. Autenticación Multifactor Local: La implementación de un Key File (Archivo Llave) añade un segundo factor de autenticación crítico. Esto asegura que la bóveda no dependa únicamente de un elemento que el usuario sabe (contraseña), sino también de algo que posee (archivo clave), protegiendo la información en caso de que la clave maestra sea comprometida.
+
+3. Cifrado en Reposo: VeraCrypt garantiza la confidencialidad de la información almacenada en el disco local mediante un contenedor cifrado de alto nivel (AES/SHA-512). Esto protege los datos sensibles ante accesos no autorizados o la pérdida física del dispositivo.
